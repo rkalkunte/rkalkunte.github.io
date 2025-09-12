@@ -42,3 +42,21 @@ body.light{background:#f7f7fb}
 /* Small niceties */
 html{scroll-behavior:smooth}
 hr.sep{border:0;border-top:1px solid var(--border);margin:24px 0}
+.hero {
+  display: grid;
+  grid-template-columns: 260px 1fr; /* left = image, right = text */
+  gap: 24px;                        /* space between them */
+  align-items: center;
+}
+
+.hero img {
+  width: 260px;
+  height: auto;
+  border-radius: 0;                  /* rectangle, not circle */
+}
+@media (max-width: 720px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+}
+
