@@ -59,4 +59,19 @@ hr.sep{border:0;border-top:1px solid var(--border);margin:24px 0}
     grid-template-columns: 1fr;
   }
 }
+.back-top {
+  text-align: center;    /* centers the link horizontally */
+  margin-top: 1.5rem;    /* space above the link */
+}
+
+.back-top a {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--link);
+}
+
+.back-top a:hover {
+  text-decoration: underline;
+}
+
 
